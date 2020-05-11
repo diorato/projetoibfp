@@ -1,0 +1,568 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.container, .texto-container h2{
+    width: 100%;
+    padding: 0 2%;
+    margin: 0 auto;
+
+}
+
+.clear{
+    clear: both;
+}
+
+header, html, body{
+    background-color:black;
+    padding: 8px 0;
+}
+
+.logo-desktop{
+    float: left;
+}
+
+.logo-desktop img{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+
+.logo-desktop a{
+   color: white;
+   font-size: 18px;
+   text-decoration: none;
+
+}
+
+nav.mobile{
+    display: none;
+}
+
+nav.desktop{
+    float: right;
+    
+   
+}
+nav.desktop li{
+    display: inline-block;
+    padding: 0 45px;
+   
+   
+}
+
+nav.desktop ul{
+    padding-top: 40px;
+    
+}
+
+nav.desktop a{
+    color: white;
+    text-decoration: none;
+    
+  
+}
+
+
+
+nav.desktop a:hover{
+    border-bottom: 2px solid teal;
+    
+}
+
+
+
+.line-text h2{
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    color: white;
+}
+
+/*.texto-container .borda-botton{
+    border-bottom: 2px solid teal;
+    width: 100px;
+}*/
+
+section.sobre-igreja{
+    padding: 30px 0;
+}
+
+section.sobre-igreja .container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+    
+}
+
+.sobre-igreja-single img{
+    float: left;
+    width: 30%;
+    margin-left: 30px;
+    max-height: 500px;
+}
+
+.sobre-igreja-single p{
+    font-size: 16px;
+    padding: 10px 30px;
+    float: left;
+    width: 50%;
+    color: white;
+    text-align: justify;
+    
+}
+
+section >p{
+    color: white;
+    margin-left: 54px;
+    margin-top: 8px;
+    max-width: 1024px;
+    text-align: justify;  
+}
+
+section.paralax{
+    padding: 30px 0;
+    width: 100%;
+    min-height: 450px;
+    background-image: url(/files/1069.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+/*
+section.paralax .overflow{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}*/
+
+section.chamada-paralax{
+   
+    padding: 5px 25px;
+    color: teal;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 150PX;
+    
+}
+
+section.paralax h2{
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+section.paralax p{
+    color: white;
+    margin-top: 10px;
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+section.equipe{
+    padding: 40px 0;
+}
+
+section.equipe .container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.line-text{
+    position: relative;
+    display: inline-block;
+}
+
+.line-text div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 3px;
+    background-color: teal;
+     
+}
+
+.line-text h2{
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.equipe-circles{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equipe-circles-single{
+    text-align: center;
+    padding: 0 20px;
+    width: 33.3%;
+    color: white;
+}
+
+.avatar-single{
+    position: relative;
+    width: 60%;
+    padding-top:  60%;
+    margin: 0 auto;
+}
+.avatar-single-container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ccc;
+    background-size: 100% 100%;
+   
+}
+
+.equipe-circles-single h3{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.equipe-circles-single p{
+    font-weight: normal;
+    
+}
+
+section.sobre__final{
+    background-color: black;
+    /*border-top: 2px solid rgb(210, 210, 210);
+    border-bottom: 2px solid rgb(210, 210, 210);*/
+    padding: 20px 0;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.w50{
+    width: 50%;
+    float: left;
+}
+
+.line-text{
+    position: relative;
+    display: inline-block;
+}
+
+.line-text div{
+    position: absolute;
+    left:0;
+    top: 0px;
+    width: 200px;
+    height: 3px;
+    background: teal;
+    margin-left: 20px;
+}
+
+.line-text h2{
+    color: white;
+    font-weight: normal;
+    font-size: 27px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.card-text{
+    margin-top: 10px;
+    width: 80%;
+    position: relative;
+}
+
+.card-text img{
+    max-width: 100%;
+    padding-left: 19px;
+}
+
+.card-text h3{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+section.sobre__final p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    text-align: justify;
+    padding-left: 19px;
+}
+
+footer.footer1{
+    padding: 25px 0;
+    color: white;
+    border-top: 1px solid white;
+    margin-top: 15px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.w33{
+    float: left;
+    width: 33.3%;
+}
+
+section.contato{
+    padding: 30px 0;
+    min-height: 600px;
+}
+
+.w60{
+    width: 60%;
+    float: left;
+}
+
+.formulario h2{
+    background: #dddddd;
+    text-align: center;
+    color: #acac9d;
+    font-size: 17px;
+    font-weight: normal;
+    border-left: 5px solid #ccc;
+    padding: 4px 0;
+}
+
+.formulario form{
+    margin-top: 10px;
+}
+
+section.contato .w50, .w100{
+    padding: 0 10px;
+}
+
+.w50{
+    width: 50%;
+    float: left;
+}
+
+.formulario input[type=text], input[type=email]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-left: 8px;
+}
+
+.formulario textarea{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 10px;
+    resize: vertical;
+}
+
+.tags-form {
+    padding-left: 50px;
+}
+
+.w40{
+    width: 40%;
+    float: left;
+}
+
+.tags-form h2{
+    font-weight: nomral;
+}
+
+.fa{
+    display: inline-block;
+    font: normal;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.tags-form p{
+    font-weight: lighter;
+    color: white;
+}
+
+.tags-form p.tag-contato{
+    color: white;
+    background: #249b8f;
+    text-align: center;
+    margin-top: 6px;
+    padding: 8px 4px;
+}
+
+footer.footer1 h2{
+    font-size: 23px;
+    font-weight: normal;
+}
+
+footer.footer1 p{
+    margin-top: 8px;
+    font-weight: lighter;
+}
+
+.fa{
+    display: inline-block;
+    font: normal;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antaliased;
+}
+
+footer.footer1 a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    
+}
+
+div.group-icons a{
+    font-size: 18px;
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+footer.footer2{
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+/*responsividade*/
+@media screen and (max-width: 768px) {
+
+    
+
+    section.contato{
+        min-height: 0;
+    }
+
+ 
+    .card-text img{
+       margin-left: 65px;
+    }
+
+    .w50,.w33,.w40,.w60{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        /*text-align: center;  amanha vou testar o sobre e equipe para
+        o centro, qualquer coisa deixo isso assim mesmo*/
+    }
+
+    .avatar-single-container, .equipe-circles, 
+    .equipe-circles-single h3, .equipe-circles-single p,
+    {
+        width: 100%;
+    }
+
+    
+    section.paralax h2, p{
+        width: 100%;
+    }
+
+    .texto-container h2{
+        padding-left: 10px;
+        width: 100%;
+    }
+
+    section > p{
+        width: 100%;
+        margin-left: 10px;
+        padding: 10px;
+        text-align: justify;
+    }
+
+   .sobre-igreja-single p{
+       margin-top: 8px;
+       width: 100%;
+       padding: 10px;
+
+   }
+
+
+    .sobre-igreja-single img{
+        width: 100%;
+        margin:0;
+    }
+
+    section.main-bg{
+        width: 100%;
+    }
+    .logo-desktop, nav.desktop{
+        display: none;
+    }
+
+    .mobile a{
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .mobile a:hover{
+        border-bottom: 2px solid teal;
+    }
+
+    nav.mobile{
+        position: relative;
+        width: 100%;
+        display: block;
+        text-align: center;
+        
+    }
+
+    .logo-mobile img{
+        width: 50px;
+        height: 50px;
+        
+    } 
+
+    nav.mobile ul{
+        display: none;
+        background: rgb(70, 68, 68) !important;
+        position: absolute;
+        left: -2%;
+        top: 53px;
+        width: 104%;
+        text-align: center;
+        z-index: 99;
+    }
+
+    nav.mobile h3{
+        position: absolute;
+        left: 0;
+        top: 27px;
+        color: white;
+        cursor: pointer;
+    }
+
+    nav.mobile li{
+        padding: 4px 0;
+        border-top: 1px solid white;
+    }
+}
